@@ -1,0 +1,104 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  flex-wrap: nowrap;
+  background: linear-gradient(#f3e3b9 25%, #fff 100%);
+  /* position: relative; */
+}
+.main-txt {
+  margin-top: 4%;
+  font-size: 35px;
+  font-family: "Happy Monkey";
+  width: 50%;
+  color: #0099cc;
+  flex: 1;
+}
+.main-txt p {
+  font-family: "Coiny";
+  font-size: 60px;
+  color: #003366;
+}
+.change {
+  color: #f5a524;
+  font-family: "Coiny";
+  font-size: 60px;
+}
+.box-img {
+  flex: 1;
+  margin-top: 1%;
+  width: 50%;
+  background-image: url("/Home_Images/sammy-line-swirls-for-background.png");
+  background-size: 100%;
+}
+.box-img img {
+  width: 70%;
+}
+
+.btns {
+  background-image: url("/Home_Images/sammy-line-swirls-for-background.png");
+  background-size: 100%;
+  width: 100%;
+}
+
+.btns button {
+  text-align: center;
+  width: 28%;
+  padding: 12px 0px;
+  margin: 3rem 5rem 1rem 1rem;
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: 18px;
+  border: 3px solid #3cb472;
+  border-radius: 5px;
+  color: #003366;
+  -webkit-text-stroke: 2px #003366;
+}
+
+.btns button:hover {
+  color: #fff;
+  background-color: #3cb472;
+  -webkit-text-stroke: 2px #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .section {
+    flex-direction: column;
+  }
+  .main-txt {
+    width: 100%;
+    font-size: 20px;
+    flex: none;
+    flex-direction: column;
+  }
+
+  .main-txt p {
+    font-size: 30px;
+  }
+  .change {
+    font-size: 30px;
+  }
+
+  .box-img {
+    width: 100%;
+    flex: none;
+  }
+
+  .box-img img {
+    width: 70%;
+  }
+
+  .btns button {
+    width: 30%;
+    margin: 1rem 1rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 480px) {
+  .btns button {
+    font-size: 10px;
+  }
+}

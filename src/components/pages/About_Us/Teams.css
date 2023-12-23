@@ -1,0 +1,73 @@
+.App-header-Teams {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: url("/About_Us_Images/sammy-line-swirls-for-background.png");
+  background-size: 40%;
+  margin: 2rem;
+}
+
+.App-header-Teams h1 {
+  text-align: center;
+  font-family: "Dosis";
+  color: #293162;
+  font-size: 3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.teams {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.team-main {
+  background: url("/About_Us_Images/sammy-line-swirls-for-background.png");
+  background-size: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1450px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.team-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.team-image {
+  width: 100%;
+  max-width: 850px;
+  margin-top: 5%;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(249, 247, 149, 0.792);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 217, 0));
+  backdrop-filter: blur(15px) saturate(3);
+}
+
+@media (max-width: 768px) {
+  .team-image {
+    max-width: 80%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-image {
+    max-width: 100%;
+    margin-top: 0;
+  }
+}
