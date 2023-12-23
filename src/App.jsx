@@ -1,27 +1,32 @@
-import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import { Home, Academics, BadjateGroup } from "./components/pages";
-import Contact from "./components/pages/Contact";
-import Footer from "./components/Footer";
-import VisionMission from "./components/pages/About_Us/VisionMission";
-import Teams from "./components/pages/About_Us/Teams";
-import Director from "./components/pages/About_Us/Director";
-import Management from "./components/pages/About_Us/Management";
-import Video from "./components/pages/Gallery/Video";
-import EventGallery from "./components/pages/Gallery/EventGallery";
-import CelebrationsGalary from "./components/pages/Gallery/CelebrationsGalary";
-import AchievementsGallery from "./components/pages/Gallery/AchievementsGallery";
-import MediaCoverageGallery from "./components/pages/Gallery/MediaCoverageGallery";
-import Program from "./components/pages/programcomponent/Program";
-import "./App.css";
-import SportsAndWellness from "./components/pages/Gallery/SportsAndWellness";
-import ScrollToTop from "./components/ScrollToTop";
-import MediaLinks from "./components/pages/Media_Links/MediaLinks";
-import { Toaster } from "react-hot-toast"; // for notification don't remover updated HH
+import React, { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Popup from './Popup';
+import Navbar from './components/Navbar';
+import { Home, Academics, BadjateGroup } from './components/pages';
+import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
+import VisionMission from './components/pages/About_Us/VisionMission';
+import Teams from './components/pages/About_Us/Teams';
+import Director from './components/pages/About_Us/Director';
+import Management from './components/pages/About_Us/Management';
+import Video from './components/pages/Gallery/Video';
+import EventGallery from './components/pages/Gallery/EventGallery';
+import CelebrationsGalary from './components/pages/Gallery/CelebrationsGalary';
+import AchievementsGallery from './components/pages/Gallery/AchievementsGallery';
+import MediaCoverageGallery from './components/pages/Gallery/MediaCoverageGallery';
+import Program from './components/pages/programcomponent/Program';
+import './App.css';
+import SportsAndWellness from './components/pages/Gallery/SportsAndWellness';
+import ScrollToTop from './components/ScrollToTop';
+import MediaLinks from './components/pages/Media_Links/MediaLinks';
+import { Toaster } from 'react-hot-toast';
+
 
 function App() {
+
   return (
     <div className="App">
+      <Popup />
       <Navbar />
       <ScrollToTop />
       <Routes>
