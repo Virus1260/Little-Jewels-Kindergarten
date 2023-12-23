@@ -76,6 +76,7 @@ const App = () => {
         <div className="card-3" data-aos="slide-up">
           <img src="/Home_Program_Images/LKG.png" alt="" />
           <h1>Lower Kindergarten</h1>
+          <br /><br /><br />
           <p>
             Age : 4+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
@@ -91,8 +92,11 @@ const App = () => {
           </button>
         </div>
         <div className="card-4" data-aos="slide-up">
-          <img src="/Home_Program_Images/UKG.png" alt="" />
+          <div className=".px-12 mx-8" >
+            <img src="/Home_Program_Images/UKG.png" alt="" />
+          </div>
           <h1>Upper Kindergarten</h1>
+          <br /><br /><br />
           <p>
             Age : 5+ <br />
             Children born on or <br /> before 31<sup>st</sup> <br />
