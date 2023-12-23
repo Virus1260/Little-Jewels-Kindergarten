@@ -22,7 +22,7 @@ function Footer() {
             <li>
               <i className="fa-solid fa-map-location-dot" />
               <a
-                href="https://maps.app.goo.gl/7rbfvYcyfaeBsX117"
+                href="https://maps.app.goo.gl/7XkJFboRLnFHEKcj9"
                 target="_blank"
               >
                 Plot No. 390, Traffic Park Main Road, Near Taori Marketing,
@@ -31,20 +31,20 @@ function Footer() {
             </li>
             <li>
               <i className="fa-solid fa-mobile-screen" />
-              <a href="https://web.whatsapp.com/" target="_blank">
+              <a href="tel:9767744782" target="_blank">
                 +91-9767744782
               </a>
             </li>
             <li>
               <i className="fa-solid fa-phone" />
-              <a href="https://web.whatsapp.com/" target="_blank">
+              <a href="tel:9607186971" target="_blank">
                 +91-9607186971
               </a>
             </li>
             <li>
               <i className="fa-solid fa-envelope" />
               <a
-                href="https://mail.google.com/mail/u/0/?pli=1#inbox"
+                href="mailto:littlejewels2010@gmail.com"
                 target="_blank"
               >
                 littlejewels2010@gmail.com
@@ -85,7 +85,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-end">
-        © 2023 Little Jewels Kindergarten, Nagpur | All Rights Reserved
+        Copyright © {new Date().getFullYear()} Little Jewels Kindergarten, Nagpur | All Rights Reserved
       </div>
     </footer>
   );
