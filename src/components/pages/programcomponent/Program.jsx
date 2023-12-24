@@ -44,7 +44,7 @@ const App = () => {
           <h1>Pre - Nursery</h1>
 
           <p>Age : {2}+ <br />
-            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            Children born on or <br /> before {new Date().getDate()}<sup></sup> <br />
             {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
 
           <button id="programButton" className="program-button" type="button">
@@ -61,7 +61,7 @@ const App = () => {
           <h1>Nursery</h1>
 
           <p>Age : {3}+ <br />
-            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            Children born on or <br /> before {new Date().getDate()}<sup></sup> <br />
             {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 3}</p>
             
           <button className="program-button" type="button">
@@ -79,7 +79,7 @@ const App = () => {
           <br /><br />
           <p>
             Age : {4}+ <br />
-            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            Children born on or <br /> before {new Date().getDate()}<sup></sup> <br />
             {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 4}</p>
 
           <button className="program-button" type="button">
@@ -99,7 +99,7 @@ const App = () => {
           <br /><br />
           <p>
             Age : {5}+ <br />
-            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            Children born on or <br /> before {new Date().getDate()}<sup></sup> <br />
             {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 5}</p>
 
           <button className="program-button" type="button">
@@ -117,7 +117,7 @@ const App = () => {
           <h1>Grade 1</h1>
           <p>
             Age : {6}+ <br />
-            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            Children born on or <br /> before {new Date().getDate()}<sup></sup> <br />
             {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 6}</p>
             
           <button className="program-button" type="button">
