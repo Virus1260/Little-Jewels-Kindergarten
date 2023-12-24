@@ -60,9 +60,9 @@ const App = () => {
           <img src="/Home_Program_Images/Nursery.png" alt="" />
           <h1>Nursery</h1>
 
-          <p>Age : 3+ <br />
+          <p>Age : {3}+ <br />
             Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
-            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 3}</p>
             
           <button className="program-button" type="button">
             <a
@@ -78,9 +78,9 @@ const App = () => {
           <h1>Lower Kindergarten</h1>
           <br /><br />
           <p>
-            Age : 4+ <br />
+            Age : {4}+ <br />
             Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
-            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 4}</p>
 
           <button className="program-button" type="button">
             <a
@@ -98,9 +98,9 @@ const App = () => {
           <h1>Upper Kindergarten</h1>
           <br /><br />
           <p>
-            Age : 5+ <br />
+            Age : {5}+ <br />
             Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
-            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 5}</p>
 
           <button className="program-button" type="button">
             <a
@@ -116,9 +116,9 @@ const App = () => {
           <img src="/Home_Program_Images/STD 1.png" alt="" />
           <h1>Grade 1</h1>
           <p>
-            Age : 6+ <br />
+            Age : {6}+ <br />
             Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
-            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 6}</p>
             
           <button className="program-button" type="button">
             <a
