@@ -1,38 +1,46 @@
 .section {
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%;
   flex-wrap: nowrap;
   background: linear-gradient(#f3e3b9 25%, #fff 100%);
-  /* position: relative; */
 }
+
+.bodering {
+  padding: 20px 5%;
+
+}
+
 .main-txt {
   margin-top: 4%;
   font-size: 35px;
   font-family: "Happy Monkey";
-  width: 50%;
+  width: 100%;
   color: #0099cc;
   flex: 1;
 }
+
 .main-txt p {
   font-family: "Coiny";
   font-size: 60px;
   color: #003366;
 }
+
 .change {
   color: #f5a524;
   font-family: "Coiny";
   font-size: 60px;
 }
+
 .box-img {
   flex: 1;
   margin-top: 1%;
-  width: 50%;
+  width: 100%;
   background-image: url("/Home_Images/sammy-line-swirls-for-background.png");
   background-size: 100%;
 }
+
 .box-img img {
-  width: 70%;
+  width: 100%;
 }
 
 .btns {
@@ -66,6 +74,7 @@
   .section {
     flex-direction: column;
   }
+
   .main-txt {
     width: 100%;
     font-size: 20px;
@@ -76,17 +85,9 @@
   .main-txt p {
     font-size: 30px;
   }
+
   .change {
     font-size: 30px;
-  }
-
-  .box-img {
-    width: 100%;
-    flex: none;
-  }
-
-  .box-img img {
-    width: 70%;
   }
 
   .btns button {
@@ -104,11 +105,11 @@
 }
 
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   margin: 0px !important;
   padding: 0px !important;
   max-width: 100%;
   overflow-x: hidden;
 }
-
