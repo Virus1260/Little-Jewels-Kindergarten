@@ -42,52 +42,52 @@ const App = () => {
             alt="image not loaded"
           />
           <h1>Pre - Nursery</h1>
-          <p>
-            Age : 2+ <br />
-            Children born on or <br /> before 31<sup>st</sup> <br />
-            December, 2022
-          </p>
+
+          <p>Age : {2}+ <br />
+            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+
           <button id="programButton" className="program-button" type="button">
             <a
               className="program-enquire_form"
               href="https://forms.gle/cCGiAVJvvatmPAv3A"
             >
-              Enroll
+              Enquire Now !
             </a>
           </button>
         </div>
         <div className="card-2" data-aos="slide-up">
           <img src="/Home_Program_Images/Nursery.png" alt="" />
           <h1>Nursery</h1>
-          <p>
-            Age : 3+ <br />
-            Children born on or <br /> before 31<sup>st</sup> <br />
-            December, 2021
-          </p>
+
+          <p>Age : 3+ <br />
+            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            
           <button className="program-button" type="button">
             <a
               className="program-enquire_form"
               href="https://forms.gle/cCGiAVJvvatmPAv3A"
             >
-              Enroll
+              Enquire Now !
             </a>
           </button>
         </div>
         <div className="card-3" data-aos="slide-up">
           <img src="/Home_Program_Images/LKG.png" alt="" />
           <h1>Lower Kindergarten</h1>
-          <br /><br /><br />
+          <br /><br />
           <p>
             Age : 4+ <br />
-            Children born on or <br /> before 31<sup>st</sup> <br />
-            December, 2020
-          </p>
+            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+
           <button className="program-button" type="button">
             <a
               className="program-enquire_form"
               href="https://forms.gle/cCGiAVJvvatmPAv3A"
             >
-              Enroll
+              Enquire Now !
             </a>
           </button>
         </div>
@@ -96,18 +96,18 @@ const App = () => {
             <img src="/Home_Program_Images/UKG.png" alt="" />
           </div>
           <h1>Upper Kindergarten</h1>
-          <br /><br /><br />
+          <br /><br />
           <p>
             Age : 5+ <br />
-            Children born on or <br /> before 31<sup>st</sup> <br />
-            December, 2019
-          </p>
+            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+
           <button className="program-button" type="button">
             <a
               className="program-enquire_form"
               href="https://forms.gle/cCGiAVJvvatmPAv3A"
             >
-              Enroll
+              Enquire Now !
             </a>
           </button>
         </div>
@@ -117,15 +117,15 @@ const App = () => {
           <h1>Grade 1</h1>
           <p>
             Age : 6+ <br />
-            Children born on or <br /> before 31<sup>st</sup> <br />
-            December, 2018
-          </p>
+            Children born on or <br /> before {new Date().getDate()}<sup>st</sup> <br />
+            {new Date().toLocaleString('default', { 'month': 'long' })}, {new Date().getFullYear() - 2}</p>
+            
           <button className="program-button" type="button">
             <a
               className="program-enquire_form"
               href="https://forms.gle/cCGiAVJvvatmPAv3A"
             >
-              Enroll
+              Enquire Now !
             </a>
           </button>
         </div>

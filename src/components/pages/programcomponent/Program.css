@@ -111,7 +111,7 @@ body {
   top: -140px;
 }
 
-.card-1 img {
+.card-1 img, .card-5 img {
   height: 13rem;
   width: 10rem;
   margin-left: -2rem;
@@ -151,6 +151,7 @@ body {
   font-weight: bold;
   margin-top: 5rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   font-family: "Exo 2", cursive;
 }
 
@@ -164,6 +165,7 @@ body {
   color: black;
   font-weight: bold;
   margin-left: 1rem;
+  margin-bottom: 0.1rem;
   font-family: "Exo 2", sans-serif !important;
 }
 
@@ -177,7 +179,7 @@ body {
 
 /* style={{backgroundColor:'rgb(81, 183, 81)', color:'whitesmoke', fontWeight:'bold', padding:'0.5rem 1.2rem 0.8rem 1.2rem', marginTop:'2.5rem', marginLeft:'1rem', borderRadius:'0.5rem', border:'rgb(81, 183, 81)'}} */
 
-/* .card-1 button,
+.card-1 button,
 .card-2 button,
 .card-3 button,
 .card-4 button,
@@ -190,7 +192,7 @@ body {
   margin-left: 1rem;
   border-radius: 0.5rem;
   border: rgb(81, 183, 81);
-} */
+}
 
 .program-button {
   background-color: rgb(81, 183, 81);
