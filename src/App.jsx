@@ -21,6 +21,7 @@ import ScrollToTop from './components/ScrollToTop';
 import MediaLinks from './components/pages/Media_Links/MediaLinks';
 import { Toaster } from 'react-hot-toast';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
       <Footer />
       <Toaster position="top-right" reverseOrder={false} />
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }
