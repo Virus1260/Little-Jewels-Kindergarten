@@ -20,6 +20,7 @@ import SportsAndWellness from './components/pages/Gallery/SportsAndWellness';
 import ScrollToTop from './components/ScrollToTop';
 import MediaLinks from './components/pages/Media_Links/MediaLinks';
 import { Toaster } from 'react-hot-toast';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       <MediaLinks />
       <Footer />
       <Toaster position="top-right" reverseOrder={false} />
+      <SpeedInsights />
     </div>
   );
 }
