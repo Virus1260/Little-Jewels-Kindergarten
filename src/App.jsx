@@ -23,9 +23,6 @@ import { Toaster } from 'react-hot-toast';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-ZYFTB6XCD2"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
