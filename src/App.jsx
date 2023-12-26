@@ -44,17 +44,16 @@ function App() {
         <meta name="keywords" content="Little Jewels Kindergarten, Nagpur, Jain International School, Child Development, Play-way Learning, Holistic Education" />
         <meta name="author" content="Virus1260, Shekhar Mishra" />
 
-      {/* Google Tag Manager script */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYFTB6XCD2"></script>
-      <script>
-        {`
+        {/* Google Tag Manager script */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYFTB6XCD2"></script>
+        <script>
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-ZYFTB6XCD2');
         `}
-      </script>
-      
+        </script>
       </Helmet>
 
       <Popup />
