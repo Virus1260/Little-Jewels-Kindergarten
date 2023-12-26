@@ -54,7 +54,6 @@ function App() {
           gtag('config', 'G-ZYFTB6XCD2');
         `}
         </script>
-        
       </Helmet>
 
       <Popup />
